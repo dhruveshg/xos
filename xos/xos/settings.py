@@ -184,6 +184,7 @@ INSTALLED_APPS = (
     'syndicate_storage',
     'geoposition',
     'rest_framework_swagger',
+    'helloworld',
     'helloworldservice',
 )
 
