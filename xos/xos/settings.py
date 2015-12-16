@@ -184,6 +184,7 @@ INSTALLED_APPS = (
     'syndicate_storage',
     'geoposition',
     'rest_framework_swagger',
+    'helloworldservice',
 )
 
 if DJANGO_VERSION[1]>=7:
