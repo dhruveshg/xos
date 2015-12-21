@@ -101,7 +101,7 @@ class HelloWorldTenant(TenantWithContainer):
     def nat_mac(self):
         return self.addresses.get("nat", (None, None))[1]
 
-    def model_policy_helloworld_tenant(pk):
+def model_policy_helloworld_tenant(pk):
     # This section of code is atomic to prevent race conditions
     with transaction.atomic():
         # We find all of the tenants that are waiting to update

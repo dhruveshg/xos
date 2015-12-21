@@ -185,7 +185,7 @@ INSTALLED_APPS = (
     'geoposition',
     'rest_framework_swagger',
     'helloworld',
-    'helloworldservice',
+    'helloworldservice'
 )
 
 if DJANGO_VERSION[1]>=7:

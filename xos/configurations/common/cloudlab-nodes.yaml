@@ -11,7 +11,7 @@ topology_template:
         type: tosca.nodes.Deployment
     mysite:
         type: tosca.nodes.Site
-    cp-1.xos-hello.onos-uml-pg0.clemson.cloudlab.us:
+    cp-1.xos-hello.onos-uml-pg0.apt.emulab.net:
       type: tosca.nodes.Node
       requirements:
         - site:

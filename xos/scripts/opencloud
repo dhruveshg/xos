@@ -148,6 +148,7 @@ function makemigrations {
     python ./manage.py makemigrations onos
     #python ./manage.py makemigrations servcomp
     python ./manage.py makemigrations helloworldservice
+    python ./manage.py makemigrations helloworld
 }
 
 function remigrate {
