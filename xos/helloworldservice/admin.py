@@ -110,8 +110,7 @@ class HelloWorldTenantForm(forms.ModelForm):
             "display_message")
         return super(HelloWorldTenantForm, self).save(commit=commit)
     
-
-     class Meta:
+    class Meta:
         model = HelloWorldTenant
 
 # Define the admin form for the tenant. This uses a similar structure as the

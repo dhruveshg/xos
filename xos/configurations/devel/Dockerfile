@@ -152,7 +152,7 @@ ADD xos/configurations/common/id_rsa /opt/xos/observers/helloworldservice_comple
 ADD xos/configurations/common/node_key.pub /root/setup/node_key.pub
 ADD xos/configurations/common/node_key /root/setup/node_key
 ADD xos/configurations/common/ceilometer_url /root/setup/ceilometer_url
-
+ADD xos/configurations/common/id_rsa /opt/xos/observers/helloworldservice/helloworldservice_private_key
 CMD /usr/bin/make -C /opt/xos/configurations/devel -f Makefile.inside; /bin/bash
 
 #CMD ["/bin/bash"]
